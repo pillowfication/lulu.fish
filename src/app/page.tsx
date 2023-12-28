@@ -1,5 +1,5 @@
 import { type JSX } from 'react'
 
 export default function Home (): JSX.Element {
-  return <div>Hello, world!</div>
+  return <div>Hello, Seulgi!</div>
 }
