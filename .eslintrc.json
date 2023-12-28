@@ -1,0 +1,9 @@
+{
+  "extends": ["standard", "standard-with-typescript", "standard-jsx", "next/core-web-vitals"],
+  "rules": {
+    "@typescript-eslint/indent": ["error", 2, {
+      "SwitchCase": 1,
+      "ignoredNodes": ["TSTypeParameterInstantiation"]
+    }]
+  }
+}
