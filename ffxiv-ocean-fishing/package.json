@@ -1,0 +1,28 @@
+{
+  "name": "@pillowfication/ffxiv-ocean-fishing",
+  "version": "1.0.0",
+  "description": "FFXIV Ocean Fishing",
+  "author": {
+    "name": "Markus Tran",
+    "email": "pillowfication@gmail.com",
+    "url": "https://pillowfication.com"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pillowfication/lulu.fish/tree/datamining"
+  },
+  "bugs": {
+    "url": "https://github.com/pillowfication/lulu.fish/issues",
+    "email": "pillowfication@gmail.com"
+  },
+  "scripts": {
+    "get-data-cn": "if not exist \"ffxiv-datamining-cn\" (git clone https://github.com/thewakingsands/ffxiv-datamining-cn ffxiv-datamining-cn) else (cd ffxiv-datamining-cn && git pull)",
+    "get-data-ko": "if not exist \"ffxiv-datamining-ko\" (git clone https://github.com/Ra-Workspace/ffxiv-datamining-ko ffxiv-datamining-ko) else (cd ffxiv-datamining-ko && git pull)"
+  },
+  "devDependencies": {
+    "canvas": "^2.11.2",
+    "csv-parse": "^5.5.3"
+  },
+  "license": "ISC"
+}
